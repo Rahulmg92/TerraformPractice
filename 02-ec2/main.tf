@@ -4,3 +4,8 @@ resource "aws_instance" "main" {
 
 
 }
+
+provider "aws" {
+  region = "us-east-1"
+
+}
